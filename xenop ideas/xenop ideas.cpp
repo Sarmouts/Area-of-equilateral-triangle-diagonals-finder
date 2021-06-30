@@ -9,7 +9,7 @@ int main()
 	{
 		float a, E, Select;
 		int n, D;
-		cout << "Choose what do you want to find: 1. Diagvnious, 2. Area of isopleuro triangle" << endl;
+		cout << "Choose what do you want to find: 1. Diagonals, 2. Area of equilateral triangle" << endl;
 		cin >> Select;
 		if (Select == 1)
 		{
@@ -22,7 +22,7 @@ int main()
 			}
 			else {
 				D = (n * (n - 3)) / 2;
-				cout << "The " << n << "-gono has " << D << " Diagonious\n";
+				cout << "The " << n << "-gono has " << D << " Diagonals\n";
 				cout << "===========================================================" << endl << endl;
 			}
 
@@ -40,7 +40,7 @@ int main()
 			}
 			else {
 				E = (a * a * sqrt(3)) / 4;
-				cout << "The area of the isopleuro triangle is " << E << "\n";
+				cout << "The area of the equilateral triangle is " << E << "\n";
 				cout << "===========================================================" << endl << endl;
 			}
 
